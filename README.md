@@ -16,3 +16,5 @@ local database on that patient's own computer. It is used by its author only.
   Procedure, Immunization, AllergyIntolerance).
 
 Contact: the repository owner via GitHub.
+
+Sandbox key set (Epic non-production, separate key): `https://jschuller.github.io/fhir-jwks/sandbox/jwks.json`
