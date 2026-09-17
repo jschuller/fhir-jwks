@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personal Health Record Sync: Terms and Privacy</title>
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:40rem;margin:2rem auto;padding:0 1rem;color:#222;background:#fff}h1{font-size:1.4rem}h2{font-size:1.1rem;margin-top:1.5rem}</style>
+</head><body>
+<h1>Personal Health Record Sync</h1>
+<p><strong>Terms of use and privacy statement.</strong> Last updated 2026-09-17.</p>
+<h2>What this app is</h2>
+<p>A personal, read-only tool that copies one patient's own health records from a healthcare organization's Epic patient-access FHIR API into a database on that patient's own computer. It is operated by its author for the author's own records. It is not offered to the public and has no users other than its author.</p>
+<h2>Data handling</h2>
+<ul>
+<li>Data is read only after the patient logs in through MyChart and approves access.</li>
+<li>Data is stored only on a computer the patient controls, on an encrypted disk. It is never transmitted to the app author's servers, to third parties, or to any cloud service.</li>
+<li>The app never modifies, creates, or deletes anything in the health record.</li>
+<li>Access can be revoked at any time from MyChart under linked apps, which invalidates the app's tokens at that organization.</li>
+</ul>
+<h2>Security</h2>
+<p>The app authenticates with a private key held only on the patient's computer. The matching public keys are published at <a href="https://jschuller.github.io/fhir-jwks/jwks.json">jwks.json</a> (production) and <a href="https://jschuller.github.io/fhir-jwks/sandbox/jwks.json">sandbox/jwks.json</a>.</p>
+<h2>No warranty</h2>
+<p>Provided as is, with no warranty of any kind. This is not a medical device and provides no medical advice. Always rely on your healthcare providers and your official patient portal for clinical decisions.</p>
+<h2>Contact</h2>
+<p>The repository owner, via <a href="https://github.com/jschuller/fhir-jwks">github.com/jschuller/fhir-jwks</a>.</p>
+</body></html>
